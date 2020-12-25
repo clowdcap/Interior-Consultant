@@ -81,15 +81,24 @@ body {
 }
 
 .content p{
-    max-width: 300px;
-    font-size: 20px;
+    max-width: 350px;
+    font-size: 30px;
     font-weight: 200;
     padding-bottom: 35px;
 }
 
+.content p a{
+    text-decoration: none;
+}
+
+.content p a span{
+    font-size: 22px;
+    font-weight: 800;
+}
+
 .content h2 {
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 500;
     max-width: 500px;
     padding-bottom: 25px;
 }
@@ -116,12 +125,13 @@ footer p {
 
 .box {
     width: 550px;
-    height: 300px;
-    position: absolute;
-    top: 65%;
-    right: 12%;
+    height: auto;
     padding: 20px 55px;
     background: rgb(23, 23, 26);
+    margin-right: 5%;
+    top: 100px;
+    transform: translateY(-45%);
+
 }
 
 .img {
